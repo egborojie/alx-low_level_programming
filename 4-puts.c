@@ -1,3 +1,4 @@
+#!/bin/bash
 #inlcude <stdio.h>
 
 /**
