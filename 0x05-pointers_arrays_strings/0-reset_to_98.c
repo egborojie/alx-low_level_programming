@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Reset_to_98 -Update the value of a var using a point.
+ * reset_to_98 - Update the value of a var using a point.
  * derefrencing
  * @n: int to check
  * return: 0
