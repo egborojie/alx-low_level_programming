@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -6,7 +8,7 @@
  *    * @b: allocated memory
  *     *
  *      * Return: a pointer to the allocated memory
- *       */
+ */
 void *malloc_checked(unsigned int b)
 {
 	void *i;
