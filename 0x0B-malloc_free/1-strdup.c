@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -8,7 +8,7 @@ nclude "main.h"
  *     *
  *      * Return: returns a pointer to the duplicated string.
  *       * It returns NULL if insufficient memory was available
- *        */
+ */
 char *_strdup(char *str)
 {
 	char *copy;
