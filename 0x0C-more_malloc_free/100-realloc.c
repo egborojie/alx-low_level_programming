@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  *  * _realloc - reallocates a memory block using malloc and free
  *   *
@@ -8,7 +8,7 @@
  *      * @new_size: the new size, in bytes of the new memory block
  *       *
  *        * Return: pointer allocate new size memory, or NULL
- *         */
+ */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *p;

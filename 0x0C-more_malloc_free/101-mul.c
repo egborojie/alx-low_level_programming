@@ -1,4 +1,5 @@
-nclude "main.h"
+#include "main.h"
+#include <stdlib.h>
 
 /**
  *  * _print - moves a string one place to the left and prints the string
@@ -6,7 +7,7 @@ nclude "main.h"
  *    * @l: size of string
  *     *
  *      * Return: void
- *       */
+ */
 void _print(char *str, int l)
 {
 	int i, j;
@@ -34,7 +35,7 @@ void _print(char *str, int l)
  *       * @dest_index: highest index to start addition
  *        *
  *         * Return: pointer to dest, or NULL on failure
- *          */
+ */
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 {
 	int j, k, mul, mulrem, add, addrem;
@@ -66,7 +67,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
  *   * @av: pointer to arguments
  *    *
  *     * Return: 0 if digits, 1 if not
- *      */
+ */
 int check_for_digits(char **av)
 {
 	int i, j;
@@ -88,7 +89,7 @@ int check_for_digits(char **av)
  *    * @l: length of strinf
  *     *
  *      * Return: void
- *       */
+ */
 void init(char *str, int l)
 {
 	int i;
@@ -104,7 +105,7 @@ void init(char *str, int l)
  *    * @argv: argument vector
  *     *
  *      * Return: zero, or exit status of 98 if failure
- *       */
+ */
 
 int main(int argc, char *argv[])
 {
