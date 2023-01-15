@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  *  * _calloc - allocates memory for an array of @nmemb elements of
  *   * @size bytes each and returns a pointer to the allocated memory.
@@ -8,7 +8,7 @@
  *      * @size: allocate element of size bytes
  *       *
  *        * Return: pointer to the allocated memory.
- *         */
+ */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *a;
