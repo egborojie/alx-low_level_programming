@@ -16,8 +16,3 @@ void free_dog(dog_t *d)
 		free(d);
 	}
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Priv
