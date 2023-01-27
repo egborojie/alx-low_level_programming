@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  *  * free_list - free single list link
  *   *
